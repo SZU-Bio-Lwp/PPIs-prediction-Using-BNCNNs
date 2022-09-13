@@ -3,8 +3,8 @@ import numpy as np
 
 
 def load_data():
-    tr_d = pd.read_csv('D:\pythonProjects\PPIs_prediction_CNN_final\CNN-ensembleRF\RSA_p3\Version2\w15\BorderlineSMOTE\d1.csv', header=None)
-    te_d = pd.read_csv('D:\pythonProjects\PPIs_prediction_CNN_final\CNN-ensembleRF\RSA_p3\Version2\w15\BorderlineSMOTE\d1.csv', header=None)
+    tr_d = pd.read_csv('', header=None)
+    te_d = pd.read_csv('', header=None)
 
     return np.array(tr_d), np.array(te_d)
 

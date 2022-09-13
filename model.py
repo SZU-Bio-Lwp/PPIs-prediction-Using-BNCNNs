@@ -29,6 +29,7 @@ class CNNs_Model(object):
             height: The height of inputs.
             width: The width of inputs.
             num_label: The category number.
+            batch_size: The size of one training batch
         """
 
         self.height = height
