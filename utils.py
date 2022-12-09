@@ -85,7 +85,7 @@ def random_batch(x_train, y_train, batch_size):
         break
 
     x_batch = np.zeros((batch_size, Input_dim))
-    y_batch = np.zeros((batch_size, Input_dim))
+    y_batch = np.zeros((batch_size, Output_dim))
     j = 0
     for i in rnd_indices:
         k = 0
